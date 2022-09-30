@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APRENDER SEM BARREIRAS - CONTATO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/CSS" href="./CSS/estilo.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light menuCor">
+      <a class="navbar-brand" href="index.html"><img src="./IMAGENS/logoASB.png" id="logo" ></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado" >
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <a href="index.html">Home <span class="sr-only">página atual</span></a>
+          </li>
+
+          <li class="nav-item px-2">
+              <a  href="sobre.html">Sobre ASB</a>
+          </li>
+
+          <li class="nav-item px-2">
+              <a  href="cadastrosEscolas.html">Cadastrar Escolas</a>
+          </li>
+
+          <li class="nav-item px-2">
+              <a  href="cadastrosEmpresas.html">Cadastrar Empresas</a>
+          </li>
+
+          <li class="nav-item px-2">
+              <a href="contato.html">Contato</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="bmenu" href="login.html" role="button">Login</a> 
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card" id="containerLogin">
+        <div class="card-body">
+          <div>
+            <h1 class="login-titulo"> Deixe sua mensagem</h1>
+          </div>
+          <form>
+            <div class="formulario">
+              <label for="inputNome" class="formulario-item">Nome:</label>
+              <input type="text" class="formulario-borda" placeholder="Digite seu nome" required>
+            </div>
+            <div class="formulario">
+                <label for="inputEmail" class="formulario-item">E-mail:</label>
+                <input type="email" class="formulario-borda"  aria-describedby="emailHelp" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="row mb-2">
+              <div class="input-group" style="height: 10vh; width: 260px;">
+                  <textarea class="form-control" aria-label="Mensagem"></textarea>
+                </div>
+          </div>
+            <button type="submit" class="btn-login">Enviar</button>
+          </form>
+    </section>
+
+    <section class="containerContato">
+      <div class="borda">
+          <ul>
+              <li>
+                  <i  class="fas fa-envelope-square link"></i>
+                  <a  class="link" href="mailto:contato@aprendersembarreiras.com">contato@asb.com</a>
+              </li>
+              <li>
+                  <i class="fab fa-brands fa-whatsapp link"></i>
+                  <a class="link" href="contato@aprendersembarreiras.com"target="_blank">(31) 977777-7777</a>
+              </li>
+
+              <li>
+                  <i class="fas fa-solid fa-phone link"></i>
+                  <a class="link" href="contato@aprendersembarreiras.com"target="_blank">(31) 7777-7777</a>
+              </li>
+          </ul>    
+      </div>
+
+      <div class="borda">
+          <ul>
+              <li>
+                  <i class="fab fa-brands fa-twitter link"></i>
+                  <a class="link" href="contato@aprendersembarreiras.com"target="_blank">aprendersembarreiras</a>
+              </li>
+              <li>
+                  <i class="fab fa-brands fa-facebook link"></i>
+                  <a  class="link"href="contato@aprendersembarreiras.com"target="_blank">prendersem_barreiras</a>
+              </li>
+              <li>
+                  <i class="fab fa-linkedin link"></i>
+                  <a class="link" href="contato@aprendersembarreiras.com"target="_blank">prender_sembarreiras</a>
+              </li>
+          </ul>    
+      </div>
+
+      <div class="borda">
+        <ul>
+            <li>
+                <i class="fab fa-brands fa-youtube link"></i>
+                <a class="link" href="contato@aprendersembarreiras.com"target="_blank">aprender-sem-barreiras</a>
+            </li>
+            <li>
+                <i class="fab fa-brands fa-instagram link"></i>
+                <a class="link" href="contato@aprendersembarreiras.com"target="_blank">prender_sem_barreiras</a>
+            </li>
+            <li>
+                <i class="fab fa-brands fa-snapchat link"></i>
+                <a class="link"href="contato@aprendersembarreiras.com"target="_blank">prender.sem.barreiras</a>
+            </li>
+        </ul>    
+      </div>
+    </section>
+  </main> 
+
+  <footer>
+      <p class="paragrafo">&copy; Todos os direitos reservados - ASB</p>
+  </footer> 
+
+  <!-- InÍcio script JavaScript bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>     
+  <!-- Fim script JavaScript bootstrap-->
+</body>
+</html>
